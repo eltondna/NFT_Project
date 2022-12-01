@@ -10,7 +10,6 @@
 
 
 
-
 #title {
     font-size: 35px;
 
@@ -19,7 +18,7 @@
 
 body {
     background-size: cover;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(7, 7, 8);
 }
 
 
@@ -36,8 +35,8 @@ body {
 
 #intro {
     font-family:'Courier New', Courier, monospace;
-    text-shadow: -2px 0 rgb(247, 194, 255), 0 2px rgb(247, 194, 255), 2px 0 rgb(247, 194, 255), 0 -2px rgb(247, 194, 255);
-    color:  #000000;
+    text-shadow: -2px 0#90BEcd, 0 2px#90BEcd, 2px 0#90BEcd, 0 -2px#90BEcd;
+    color:  #323232;
     
 }
 
@@ -73,5 +72,99 @@ a{
     animation: forwards;
     animation-name: move;
     animation-duration: 1s;
+}
+
+
+
+
+.content {
+    color: #90BEcd;
+}
+
+
+
+.subtitle{
+    font-size: 25px;
+    height: 100px;
+
+}
+
+
+
+
+#bgfuture{
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    size: 100%;
+    width: 100%;
+    height: 900px;
+}
+
+
+.metaverse{
+    font-size: 25px; 
+    width:600px; 
+    float:right; 
+    margin-top: -550px
+}
+
+#kitty{
+    animation-name: size;
+    animation-duration: 2s;
+    animation: forwards;
+
+}
+
+
+
+img{
+    float:right;
+    margin-right: 250px;
+    margin-top: -80px;
+}
+
+.body_text{
+ color: #90BEcd;
+ font-size: 30px;font-weight: lighter;
+}
+
+.img{
+width:15cm;
+height:10cm;
+
+}
+.img_video{
+width:15cm;
+height:15cm
+}
+
+
+.margin_1{
+margin-top: 35px;
+margin-right: 900px;
+
+}
+
+.bold{
+font-weight:bold;
+color: #90BEcd;
+}
+
+.bold_2{
+font-weight:bold;
+color: #90BEcd;
+font-size: medium;
+}
+
+
+.fontlarge{
+font-size: larger;
+}
+
+
+#reference{
+    text-decoration: underline;
 }
 
